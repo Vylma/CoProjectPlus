@@ -1,0 +1,196 @@
+html {
+	width : 100%;
+    margin: auto;
+    padding: auto;
+    border: 0;
+    height: 100%;
+	background-color: #FAFAFA;
+}
+
+body
+{
+    background-color: #FFFFFF;
+	width : 772px;
+    margin: auto;
+    padding: auto;
+    border: 0;
+    height: 100%;
+text-align: center;
+
+}
+
+header
+{
+	background-color: #FFFFFF;
+	width: 772px;
+	text-align: center;
+	padding : auto;
+	margin : 0 auto;
+	height : 20%;
+}
+
+
+img.loader {
+	display:block;
+	margin: 0 auto; 
+	margin-top: 100px;
+}
+
+#errorPage
+{
+	width: 600px;
+	background-color : #99CCFF;
+	
+}
+
+#content
+{
+
+	text-align: center;
+	width: 600px;
+	padding : 0 auto;
+	margin : 0 auto;
+
+}
+
+
+
+.loginform {
+	width: 400px;
+	padding: 3mm 3mm 3mm 3mm;
+	border-top: 15px;
+	border-bottom: 15px;
+	border-right : 0px;
+	border-left : 0px;
+	border-color: #006699;
+	border-style: solid;
+	background-color : #99CCFF;
+	margin : auto;
+}
+
+.loginform table {
+	margin: 0 auto;
+}
+
+.loginform input[type=text], input[type=password] {
+	margin-left : 20px;
+	font-family : verdana;
+	height : 20px;
+	border : 1px inset;
+}
+
+.loginform td {
+	font-family : verdana;
+	font-size : 11px;
+}
+
+
+.bouton {
+	padding: 3px 15px 3px 15px;
+	background-color:#FFFFFF;
+	border-color : #006699;
+	border : 0px solid;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	font-family : verdana;
+	font-size : 10px;
+	cursor : pointer;
+
+	
+}
+
+.bouton:hover {
+	border-color : #000000;
+	background-color:#006699;
+	color : #FFFFFF;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projet_table
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	
+	text-align: center;
+	border-collapse: collapse;
+	margin:0 auto;
+	width:600px;
+}
+.projet_table th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 4px;
+	background: #003366;
+	border: 1px solid #ffffff;
+	border-bottom: 1px solid #fff;
+	color: #ffffff;
+	margin:1px;
+}
+.projet_table td
+{
+	padding: 8px;
+	background: #e8edff; 
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border: 1px solid #ffffff;
+}
+.projet_table tr:hover td
+{
+	background: #d0dafd;
+	color: #339;
+}
+
+
+/* Subsection Tabs
+--------------------*/
+.tabmenu { 
+    color: #000; 
+    padding: 0px; 
+    margin:0 auto;
+    
+    margin-bottom:10px;
+    border-bottom: 1px solid #003366;
+} 
+
+.tabmenu li { 
+
+display: inline; 
+overflow: hidden; 
+list-style-type: none; } 
+
+.tabmenu a { 
+
+color: #003366; 
+background: #99ccff;
+font-family: "Arial Narrow", Sans-Serif;
+font-size: 12px;
+font-weight:bold;
+border: 1px solid #003366; 
+padding: 2px 10px 2px 10px; 
+margin: 0px; 
+text-decoration: none;
+cursor:pointer;
+
+} 
+
+.tabmenu a.active { 
+color:#ffffff;
+background: #003366; 
+
+ } 
+
+
