@@ -38,6 +38,24 @@ class ProjetManager extends Model {
 		$requete->closeCursor();
 		return $listeProjets;
 	}
+    
+    public function getProjetById($id_projet) {
+        $requete = $this->db->prepare('select sdsi_projet.id_projet as code, nom, libelle as etat, priorite from sdsi_projet 
+									   inner join sdsi_etat_projet on sdsi_projet.id_etat_projet = sdsi_etat_projet.id_etat_projet
+									   inner join sdsi_acteur_projet on sdsi_projet.id_projet = sdsi_acteur_projet.id_projet
+									   where sdsi_projet.id_projet = :id_projet;');
+                                       
+                                       
+        $requete->bindValue(':id_projet', $id_projet);
+        $requete->execute();
+        
+        $pro = $requete->fetch();
+        $projet = new Projet($pro);
+        
+        
+        $requete->closeCursor();
+        return $projet;
+    }
 }
 	
 	

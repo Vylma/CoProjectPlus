@@ -15,7 +15,12 @@ body
     padding: auto;
     border: 0;
     height: 100%;
-text-align: center;
+	font-family: "Verdana";
+font-size: 12px;
+
+
+	
+
 
 }
 
@@ -161,9 +166,13 @@ img.loader {
     color: #000; 
     padding: 0px; 
     margin:0 auto;
-    
+    text-align:center;
     margin-bottom:10px;
     border-bottom: 1px solid #003366;
+margin-top:10px;
+height:18px;
+
+font-weight:bold;
 } 
 
 .tabmenu li { 

@@ -26,6 +26,14 @@ class Projets extends Controller {
     }
     
     function realisation($id) {
+    
+        $this->loadModel('ProjetManager');
+        
+        $projet = $this->ProjetManager->getProjetById($id);
+        
+        $d = array();
+        $d['projet'] = $projet;
+        $this->set($d);
         $this->render('realisation');
     }
     
